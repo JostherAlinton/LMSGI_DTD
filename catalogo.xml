@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalog SYSTEM "catalogo.dtd">
+<catalog>
+  <llista_actors>
+    <actor id="act1">
+      <nom>Josther Ozuna Peña</nom>
+      <edat>18</edat>
+    </actor>
+    <actor id="act2">
+      <nom>Xavi Hernandez</nom>
+      <edat>44</edat>
+    </actor>
+    <actor id="act3">
+      <nom>Gerard pique</nom>
+      <edat>37</edat>
+    </actor>
+  </llista_actors>
+
+  <llista_pelicules>
+    <pelicula id="peli1">
+      <titol idioma="en">La mosca</titol>
+      <director>David Cronenberg</director>
+      <any>1986</any>
+      <actors>
+        <actor_ref idref="act1"/>
+        <actor_ref idref="act2"/>
+      </actors>
+    </pelicula>
+    <pelicula id="peli2">
+      <titol idioma="es">Transformers</titol>
+      <director>Michael Bay</director>
+      <any>2007</any>
+      <actors>
+        <actor_ref idref="act3"/>
+      </actors>
+    </pelicula>
+    <pelicula id="peli3">
+      <titol idioma="en">the batman</titol>
+      <director>Matt Reeves</director>
+      <any>2022</any>
+      <actors/>
+    </pelicula>
+  </llista_pelicules>
+
+  <llista_recomanacions_pelicules>
+    <recomanacio ref="peli1"/>
+    <recomanacio ref="peli2"/>
+  </llista_recomanacions_pelicules>
+</catalog>
